@@ -68,6 +68,12 @@ Update soon!
 ```sh
     python service.py
 ```
+* Run face matching: (Included face detection and feature extraction)
+```
+    python3 face_matching.py -f /path/to/image/folder -th threshold (default=0.5)
+    Example:
+    python3 face_matching.py -f /media/dan/Storage/Code/face_matching/test
+```
 
 
 <!--CONTACT -->
